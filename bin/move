@@ -9,5 +9,5 @@ display_board(board)
 puts "Where would you like to go?"
 index = gets.strip
 index = input_to_index(index)
-new_board = move(board, index)
-display_board(new_board)
+display_board(move(board, index))
+
