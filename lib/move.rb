@@ -18,5 +18,5 @@ board = [" ", " ", " "]
   array[index] = value
   end 
 update_array_at_with(board, 0, "X")
-return board
+display_board(board)
 end
